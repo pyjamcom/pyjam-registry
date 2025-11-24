@@ -1,0 +1,11 @@
+{
+  "name": "Pyjam",
+  "symbol": "PJM",
+  "description": "Pyjam (PJM) is the utility token of the community-owned Pyjam streaming & freelance app. Earn PJM for live streams, viewer engagement, tips, and gigs; spend it on boosts and donations, or swap via on/off-ramps and DEXs. PJM underpins access to premium features and future community governance.",
+  "image": "https://pyjam.com/assets/favicon.png",
+  "external_url": "https://pyjam.com",
+  "attributes": [
+    { "trait_type": "Category", "value": "Utility" },
+    { "trait_type": "Network", "value": "Solana" }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "token": {
+    "name": "Pyjam",
+    "symbol": "PJM",
+    "mint": "5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r",
+    "decimals": 6,
+    "metadata_uri": "https://pyjam.com/token_metadata_template.json",
+    "metadata_update_authority": "revoked (immutable)",
+    "mint_authority": "active (can be revoked when emission is closed)",
+    "freeze_authority": "active (can be revoked if not needed)"
+  },
+  "liquidity": {
+    "raydium_clmm_amm_id": "2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN",
+    "pair": "PJM/USDC",
+    "lp_holder_multisig_safe": "FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm",
+    "lp_mints": [
+      "Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs",
+      "82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp",
+      "3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP"
+    ]
+  },
+  "treasury_and_vault": {
+    "payer_treasury": "9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx",
+    "treasury_secondary": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
+    "vault_pda": "CnqTkJfYPErHb6XhnKQ53eNg5fFYLXtJxBNb6uZzNGJX",
+    "vault_ata": "2ruNJ9hQndbhMCikHefbSw34mFA3VgGTKpYC8f7FjvXM"
+  },
+  "oracle_and_program": {
+    "program_id": "DMMUCwKdP3SBUSVnE1hH9S4KibFUfJccxCuRFWfcsYtd",
+    "oracle_pubkey": "4joodcGemJ4bMu8GeCNidzrec3yvYngVUUkgMjFpkffJ"
+  },
+  "links": {
+    "website": "https://pyjam.com",
+    "logo": "https://pyjam.com/assets/favicon.png",
+    "metadata_json": "https://pyjam.com/token_metadata_template.json",
+    "jupiter_swap": "https://jup.ag/swap/USDC-PJM?inputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputMint=5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r",
+    "dexscreener": "https://dexscreener.com/solana/2htoaofqms5sdk1imjcr38k4h99f4dwxswu8cgqkgknn",
+    "solscan": "https://solscan.io/token/5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r"
+  },
+  "notes": [
+    "LP tokens are held in the multisig Safe above.",
+    "Metadata is immutable; logo/URI cannot be changed without a new mint.",
+    "Mint/freeze authority can be revoked when emission is finalized to remove remaining risk flags."
+  ]
+}

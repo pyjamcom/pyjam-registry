@@ -1,0 +1,53 @@
+# Pyjam Registry (Solana)
+
+Официальный открытый реестр адресов и метаданных токена **Pyjam (PJM)**.
+
+## Core
+- Mint: `5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r`
+- Decimals: 6
+- Metadata URI: `https://pyjam.com/token_metadata_template.json`
+- Metadata update authority: revoked (immutable)
+- Program ID (vault): `DMMUCwKdP3SBUSVnE1hH9S4KibFUfJccxCuRFWfcsYtd`
+
+## Liquidity
+- Raydium CLMM PJM/USDC AmmID: `2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN`
+- LP holder multisig (Squads Safe): `FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm`
+- LP mints: `Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs`, `82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp`, `3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP`
+
+## Treasury & Vault
+- Payer/Treasury: `9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx`
+- Treasury secondary: `5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8`
+- Vault PDA: `CnqTkJfYPErHb6XhnKQ53eNg5fFYLXtJxBNb6uZzNGJX`
+- Vault ATA (PJM): `2ruNJ9hQndbhMCikHefbSw34mFA3VgGTKpYC8f7FjvXM`
+
+## Oracle
+- Oracle pubkey: `4joodcGemJ4bMu8GeCNidzrec3yvYngVUUkgMjFpkffJ`
+
+## Useful links
+- Transparency JSON: `https://pyjam.com/pyjam-transparency.json`
+- Token metadata JSON: `https://pyjam.com/token_metadata_template.json`
+- Swap (Jupiter): https://jup.ag/swap/USDC-PJM?inputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputMint=5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r
+- Dexscreener: https://dexscreener.com/solana/2htoaofqms5sdk1imjcr38k4h99f4dwxswu8cgqkgknn
+- Solscan: https://solscan.io/token/5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r
+- Website: https://pyjam.com
+- Logo: https://pyjam.com/assets/favicon.png
+
+## Jupiter Verified (fields)
+- Name: Pyjam
+- Symbol: PJM
+- Mint: 5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r
+- Decimals: 6
+- Logo: https://pyjam.com/assets/favicon.png (PNG <1MB)
+- Website: https://pyjam.com
+- Description: Pyjam (PJM) is the utility token of the community-owned Pyjam streaming & freelance app. Earn PJM for live streams, viewer engagement, tips, and gigs; spend it on boosts and donations, or swap via on/off-ramps and DEXs. PJM underpins access to premium features and future community governance.
+- Socials: Telegram https://t.me/pyjamcom, Twitter https://twitter.com/pyjamcom
+- Contact email: <your-email@pyjam.com>
+
+## Files
+- `pyjam-transparency.json` — полный список адресов/ссылок.
+- `token_metadata_template.json` — актуальный metadata JSON для on-chain URI.
+
+## Notes
+- Metadata immutable (update authority revoked).
+- LP удерживаются мультисигом; адрес Safe указан выше.
+- Mint/freeze authority можно ревокнуть после финализации эмиссии.
