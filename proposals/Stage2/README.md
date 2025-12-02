@@ -1,9 +1,10 @@
-# Stage 2 – PJM Supply Increase (Draft)
+# Stage 2 – PJM Supply Increase (Completed via owner override)
 
 - Mint amount: **100,000,000 PJM**
-- Recipient: **5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8** (treasury/rewards wallet; mint to its PJM ATA)
+- Recipient: **5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8** (treasury/rewards wallet; ATA `33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X`)
+- Tx mint: `4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ`
 - Additional USDC liquidity: **0** (USDC cap already used in Stage 1)
-- Triggers: DAU ≥ 50,000 OR daily DEX volume ≥ $50,000; LP share ≥1% of circulating PJM; price drawdown <20% vs pre-stage; circulation cap before execution ≤60M PJM. *Override allowed by owner: tokens remain non-circulating on treasury until further decision.*
-- Execution: Anchor/DAO proposal; multisig 3/5 (or DAO majority); log all tx hashes in Reports/full_history.md and registry.
-- Post-mint: monitor LP share; rebalance CLMM if needed; keep emissions paced to maintain LP ≥1% circ. No timelock/vesting is applied if override is used; state this publicly.
-- References: see `docs/proposals/stage2-anchor-proposal.json` in main repo for parameter template.
+- Triggers: owner override of volume/DAU; tokens remain **non-circulating** on treasury (no timelock/vesting) until further decision.
+- Circulation cap policy kept: Stage2 ≤60M; LP ≥1% circ; price drawdown <20% before advancing to next stage.
+- Execution: mint signed by mint authority (7a81UVC…); no new LP actions.
+- Post-mint: monitor LP share; rebalance CLMM if needed; any release of these tokens must be announced separately.
