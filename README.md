@@ -7,14 +7,16 @@
 - Decimals: 6
 - Metadata URI: `https://pyjam.com/token_metadata_template.json`
 - Metadata update authority: revoked (immutable)
-- Program ID (vault): `DMMUCwKdP3SBUSVnE1hH9S4KibFUfJccxCuRFWfcsYtd`
+- Mint authority: revoked (tx `3G4D6g8CWjd6wrb97HzPd1zDjXkNQaeHf6C8ekGvU9VePDXFr7ErxSrvcHSvthcQ9dpXU4L8cgiHAJ7m1YR1GQfK`)
+- Freeze authority: none
+- Total supply: 500,000,000 PJM (fixed)
 
 ## Liquidity
 - Raydium CLMM PJM/USDC AmmID: `2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN`
 - LP holder multisig (Squads Safe): `FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm`
 - LP mints: `Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs`, `82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp`, `3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP`
 - Stage 1 lock proof (Jupiter Lock, 18m): `proposals/Stage1/lock.md` — escrow `atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo`, tx `2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT`, unlock 02 Jun 2027 12:12 UTC.
-- Stage 2 override (non-circulating 100M PJM): see `proposals/Stage2/README.md`; minted to treasury `5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8` (ATA `33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X`), tx `4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ`; tokens remain non-circulating until separate decision.
+- Stage 2–4 overrides: owner-held PJM (tx см. owner_holdings в transparency).
 
 ## Treasury & Vault
 - Payer/Treasury: `9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx`
@@ -46,10 +48,9 @@
 - Contact email: <your-email@pyjam.com>
 
 ## Files
-- `pyjam-transparency.json` — полный список адресов/ссылок.
+- `pyjam-transparency.json` — полный список адресов/ссылок (включая owner_holdings overrides).
 - `token_metadata_template.json` — актуальный metadata JSON для on-chain URI.
 
 ## Notes
-- Metadata immutable (update authority revoked).
+- Metadata immutable; mint authority revoked; freeze authority none; supply fixed at 500M PJM.
 - LP удерживаются мультисигом; адрес Safe указан выше.
-- Mint/freeze authority можно ревокнуть после финализации эмиссии.
