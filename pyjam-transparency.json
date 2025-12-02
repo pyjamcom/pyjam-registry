@@ -51,6 +51,13 @@
         "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
         "tx": "2mJj4UL6mvWigsxfYSoih6h12hJNHAxkV9FXYTBAGAQgsvKTS3AtgNNj89iEVMqs4nFjss5vwaUXyrniXWVM53ck",
         "note": "Stage 3 override (mint 2), owner-held, no timelock"
+      },
+      {
+        "amount": "100000000",
+        "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
+        "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
+        "tx": "FgX7Bj1xs8MyiugLLykwKe1ng362ZxrWPNH9jA92WYhmJxDE3oiH36rEGzCwBkdVaH16FeryG8EWxZ3DLTMURn3",
+        "note": "Stage 4 override, owner-held, no timelock"
       }
     ]
   },
