@@ -45,7 +45,7 @@ Official public registry of addresses and metadata for **Pyjam (PJM)**.
 - Website: https://pyjam.com
 - Description: Pyjam (PJM) is the utility token of the community-owned Pyjam streaming & freelance app. Earn PJM for live streams, viewer engagement, tips, and gigs; spend it on boosts and donations, or swap via on/off-ramps and DEXs. PJM underpins access to premium features and future community governance.
 - Socials: Twitter/X https://twitter.com/pyjamstreams
-- Contact email: <your-email@pyjam.com>
+- Contact email: support@pyjam.com
 
 ## Files
 - `pyjam-transparency.json` — full list of addresses/links (includes owner_holdings overrides).
