@@ -30,15 +30,15 @@
         "orb": "https://orb.helius.dev/tx/2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT"
       }
     },
-    "non_circulating": [
+    "owner_holdings": [
       {
         "amount": "100000000",
         "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
         "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
-        "reason": "Stage 2 override (owner-held, no timelock/vesting)",
-        "tx": "4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ"
+        "tx": "4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ",
+        "note": "Stage 2 override, owner-held, no timelock; circulation at owner discretion"
       }
-    }
+    ]
   },
   "treasury_and_vault": {
     "payer_treasury": "9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx",
