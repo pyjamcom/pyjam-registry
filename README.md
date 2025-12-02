@@ -13,6 +13,7 @@
 - Raydium CLMM PJM/USDC AmmID: `2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN`
 - LP holder multisig (Squads Safe): `FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm`
 - LP mints: `Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs`, `82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp`, `3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP`
+- Stage 1 lock proof (Jupiter Lock, 18m): `proposals/Stage1/lock.md` — escrow `atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo`, tx `2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT`, unlock 02 Jun 2027 12:12 UTC.
 
 ## Treasury & Vault
 - Payer/Treasury: `9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx`
