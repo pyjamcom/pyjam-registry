@@ -1,6 +1,6 @@
 # Pyjam Registry (Solana)
 
-Официальный открытый реестр адресов и метаданных токена **Pyjam (PJM)**.
+Official public registry of addresses and metadata for **Pyjam (PJM)**.
 
 ## Core
 - Mint: `5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r`
@@ -16,7 +16,7 @@
 - LP holder multisig (Squads Safe): `FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm`
 - LP mints: `Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs`, `82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp`, `3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP`
 - Stage 1 lock proof (Jupiter Lock, 18m): `proposals/Stage1/lock.md` — escrow `atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo`, tx `2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT`, unlock 02 Jun 2027 12:12 UTC.
-- Stage 2–4 overrides: owner-held PJM (tx см. owner_holdings в transparency).
+- Stage 2–4 overrides: owner-held PJM (see owner_holdings in transparency).
 
 ## Treasury & Vault
 - Payer/Treasury: `9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx`
@@ -44,13 +44,13 @@
 - Logo: https://pyjam.com/assets/favicon.png (PNG <1MB)
 - Website: https://pyjam.com
 - Description: Pyjam (PJM) is the utility token of the community-owned Pyjam streaming & freelance app. Earn PJM for live streams, viewer engagement, tips, and gigs; spend it on boosts and donations, or swap via on/off-ramps and DEXs. PJM underpins access to premium features and future community governance.
-- Socials: Telegram https://t.me/pyjamcom, Twitter https://twitter.com/pyjamcom
+- Socials: Twitter/X https://twitter.com/pyjamstreams
 - Contact email: <your-email@pyjam.com>
 
 ## Files
-- `pyjam-transparency.json` — полный список адресов/ссылок (включая owner_holdings overrides).
-- `token_metadata_template.json` — актуальный metadata JSON для on-chain URI.
+- `pyjam-transparency.json` — full list of addresses/links (includes owner_holdings overrides).
+- `token_metadata_template.json` — current metadata JSON for on-chain URI.
 
 ## Notes
 - Metadata immutable; mint authority revoked; freeze authority none; supply fixed at 500M PJM.
-- LP удерживаются мультисигом; адрес Safe указан выше.
+- LP tokens are held by the multisig Safe (address above).
