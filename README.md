@@ -14,6 +14,7 @@
 - LP holder multisig (Squads Safe): `FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm`
 - LP mints: `Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs`, `82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp`, `3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP`
 - Stage 1 lock proof (Jupiter Lock, 18m): `proposals/Stage1/lock.md` — escrow `atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo`, tx `2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT`, unlock 02 Jun 2027 12:12 UTC.
+- Stage 2 override (non-circulating 100M PJM): see `proposals/Stage2/README.md`; minted to treasury `5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8` (ATA `33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X`), tx `4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ`; tokens remain non-circulating until separate decision.
 
 ## Treasury & Vault
 - Payer/Treasury: `9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx`
