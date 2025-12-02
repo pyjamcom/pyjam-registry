@@ -17,7 +17,19 @@
       "Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs",
       "82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp",
       "3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP"
-    ]
+    ],
+    "lp_lock": {
+      "type": "Jupiter Lock",
+      "escrow": "atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
+      "tx": "2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT",
+      "unlock_utc": "2027-06-02T12:12:00Z",
+      "lp_nft_mint": "Akhgxd7bwPtS7nfNfq8q7aLNPNzeEAp7RZrNyEvGDRpf",
+      "links": {
+        "lock_ui": "https://lock.jup.ag/escrow/atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
+        "explorer": "https://explorer.solana.com/tx/2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT",
+        "orb": "https://orb.helius.dev/tx/2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT"
+      }
+    }
   },
   "treasury_and_vault": {
     "payer_treasury": "9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx",
