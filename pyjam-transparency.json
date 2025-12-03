@@ -1,87 +1,62 @@
 {
-  "token": {
-    "name": "Pyjam",
-    "symbol": "PJM",
-    "mint": "5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r",
-    "decimals": 6,
-    "metadata_uri": "https://pyjam.com/token_metadata_template.json",
-    "metadata_update_authority": "revoked (immutable)",
-    "mint_authority": "active (can be revoked when emission is closed)",
-    "freeze_authority": "none"
+  "mint": "5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r",
+  "supply": 500000000,
+  "mint_revoke_tx": "3G4D6g8CWjd6wrb97HzPd1zDjXkNQaeHf6C8ekGvU9VePDXFr7ErxSrvcHSvthcQ9dpXU4L8cgiHAJ7m1YR1GQfK",
+  "freeze": "none",
+  "lp_lock": {
+    "escrow": "atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
+    "nft": "Akhgxd7bwPtS7nfNfq8q7aLNPNzeEAp7RZrNyEvGDRpf",
+    "unlock_utc": "2027-06-02T12:12:00Z",
+    "pool_id": "2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN",
+    "amounts": {
+      "usdc": 15000,
+      "pjm": 1275977.896863
+    }
   },
-  "liquidity": {
-    "raydium_clmm_amm_id": "2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN",
-    "pair": "PJM/USDC",
-    "lp_holder_multisig_safe": "FJ9kR8S86z4anTjqDwkVRFGbsdBnCcrNCtw1up2osGnm",
-    "lp_mints": [
-      "Do3Tg8J5hnoQCbuXufuzDmvd3Ckm3bJw6R79R3sw4XAs",
-      "82k5cM8z46J9CNtC5whHt7i9wGPrNsVpmYozZNn3eTfp",
-      "3mbu5PvBVVSpCxJDFZoaw3LSymh9STAP3TeahN42YsUP"
-    ],
-    "lp_lock": {
-      "type": "Jupiter Lock",
-      "escrow": "atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
-      "tx": "2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT",
-      "unlock_utc": "2027-06-02T12:12:00Z",
-      "lp_nft_mint": "Akhgxd7bwPtS7nfNfq8q7aLNPNzeEAp7RZrNyEvGDRpf",
-      "links": {
-        "lock_ui": "https://lock.jup.ag/escrow/atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
-        "explorer": "https://explorer.solana.com/tx/2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT",
-        "orb": "https://orb.helius.dev/tx/2ZzZZRDfayEcizRyKFdaUQAS6Moj1o9pZ7uJ2DL5FzveTQy4PbeWkPCPeHP6rhCXEd2ASQbzyYX5xuQsuRmsG2XT"
-      }
+  "allocations": {
+    "owner_buffer": {
+      "amount": 80000000,
+      "wallet": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8"
     },
-    "owner_holdings": [
-      {
-        "amount": "100000000",
-        "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
-        "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
-        "tx": "4982FSw5iBYF6CeVhjF3i8DByqB3cYhkiB2YFEXK4Jt5H5xLxNQ4HqAgvmMPQAdExiDJgj11dUK2xHovhNtG9fZ",
-        "note": "Stage 2 override, owner-held, no timelock"
-      },
-      {
-        "amount": "100000000",
-        "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
-        "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
-        "tx": "4M3QUGFgzgtFdsodHfreSYSVefi6KAa2XyCLsp2MEFgzqEt1ot14H9osads6tZxJbB1Mod9xti289sGsgutP4WMx",
-        "note": "Stage 3 override (mint 1), owner-held, no timelock"
-      },
-      {
-        "amount": "100000000",
-        "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
-        "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
-        "tx": "2mJj4UL6mvWigsxfYSoih6h12hJNHAxkV9FXYTBAGAQgsvKTS3AtgNNj89iEVMqs4nFjss5vwaUXyrniXWVM53ck",
-        "note": "Stage 3 override (mint 2), owner-held, no timelock"
-      },
-      {
-        "amount": "100000000",
-        "holder": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
-        "ata": "33sbQjKT1CHS1YG6cWsDjo595W3iCXeXk9oBqjY4t74X",
-        "tx": "FgX7Bj1xs8MyiugLLykwKe1ng362ZxrWPNH9jA92WYhmJxDE3oiH36rEGzCwBkdVaH16FeryG8EWxZ3DLTMURn3",
-        "note": "Stage 4 override, owner-held, no timelock"
-      }
-    ]
+    "team": {
+      "amount": 60000000,
+      "wallet": "4aFcoHku9LD1w5C5Pz7QfCevPWnamUva5Kxw4GJmsEGV",
+      "ata": "GtzimNuWfc5oGvUzmK2vaP5FWHTjxQGDg5PcvaSQV4tv",
+      "tx": "4Ab1v37UA8jRQk2Dh4wPZqL24YXDzgJ5CDNiWv2ZVz197srDobkMYGnvP3uSP5vEvPoBVydJdxRMufoNArXQXAzt"
+    },
+    "community": {
+      "amount": 140000000,
+      "wallet": "EVFn68Dr2oUihTVso8X93uCquB3G92RCdSCrsz3f6Nf6",
+      "ata": "2pWcgvoBJUrXRpLN2YdTnFDGK5MbPwwHw2BC8paguVWQ",
+      "tx": "54fyoQBraD4gpJjPHnU6oS3tcyXxoD3BhLLnBUiAy2261nU6pCqLx7NHRFV88fYQzskNxD9vW8c8fXYRDMbg7znt"
+    },
+    "treasury_mm": {
+      "amount": 60000000,
+      "wallet": "C5vkhSn3o2skMyc6wB1f74hgJEXdH8rD596G6c16MvQK",
+      "ata": "BuCPcaXdK7RHsokGGacEwgob7sbpjh8c2BybrqhqG8bS",
+      "tx": "JEovVhSZoTdYiwsprn3rZFGRpk7v6VCuM5FCZo7TM9iPGMrYxy4goMDrn3NTieUuYVwGqhWnhDodvZ7t6MtMumv"
+    },
+    "reserve": {
+      "amount": 160000000,
+      "wallet": "E9Xikh33mU4jPbrrGhjGzC3GLC6qtmRR7CUCS189RgWK",
+      "ata": "6FTSvEmfGF9c4t7T5z2KDeA3D4CHycApirXABtiQUFMg",
+      "tx": "3J8ZMYLuvbaPrQd5BzPKTxEh3qFKBRJn4wVQH1BJ6mD1f1Eys3qBHTS3jLfPyXc2FGYBp3o3QZsw4vnh6RdFRjVb"
+    }
   },
-  "treasury_and_vault": {
-    "payer_treasury": "9FG74JmFc1vpBsostRaNwTrZfJDrMtC1twfoJ7e1HgDx",
-    "treasury_secondary": "5PZkTJvWotsmmBS2NNkZG3fwCVTHTweBhbmgcW1Fp6V8",
-    "vault_pda": "CnqTkJfYPErHb6XhnKQ53eNg5fFYLXtJxBNb6uZzNGJX",
-    "vault_ata": "2ruNJ9hQndbhMCikHefbSw34mFA3VgGTKpYC8f7FjvXM"
+  "metadata": {
+    "primary": "https://pyjam.com/metadata/pjm.json",
+    "mirror": "https://raw.githubusercontent.com/pyjamcom/pyjam-registry/main/pjm.json",
+    "sha256": "e2d208aa04b2591c7b77e6fe2fc3a4cafad7335f10f53efc67eb81c3b8d50f2f"
   },
-  "oracle_and_program": {
-    "program_id": "DMMUCwKdP3SBUSVnE1hH9S4KibFUfJccxCuRFWfcsYtd",
-    "oracle_pubkey": "4joodcGemJ4bMu8GeCNidzrec3yvYngVUUkgMjFpkffJ"
+  "transparency_json": {
+    "primary": "https://pyjam.com/transparency/pyjam-transparency.json",
+    "mirror": "https://raw.githubusercontent.com/pyjamcom/pyjam-registry/main/pyjam-transparency.json",
+    "sha256": "5f17d0f0902f04bdb72a3bacb0820269d029716be25e473e9b0b4166484a3bd5"
   },
-  "links": {
-    "website": "https://pyjam.com",
-    "logo": "https://pyjam.com/assets/favicon.png",
-    "metadata_json": "https://pyjam.com/token_metadata_template.json",
-    "jupiter_swap": "https://jup.ag/swap/USDC-PJM?inputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputMint=5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r",
-    "dexscreener": "https://dexscreener.com/solana/2htoaofqms5sdk1imjcr38k4h99f4dwxswu8cgqkgknn",
-    "solscan": "https://solscan.io/token/5zUk2q8eHSGG5HeVkCVwjApT8FNyWFNyf8YyTocP916r"
+  "contacts": {
+    "site": "https://pyjam.com",
+    "x": "https://x.com/pyjamstreams",
+    "email": "support@pyjam.com"
   },
-  "notes": [
-    "LP tokens are held in the multisig Safe above.",
-    "Metadata is immutable; logo/URI cannot be changed without a new mint.",
-    "Mint/freeze authority can be revoked when emission is finalized to remove remaining risk flags."
-  ]
+  "notes": "Owner controls all signers; multisig addresses to be filled after creation."
 }
