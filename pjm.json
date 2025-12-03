@@ -1,0 +1,21 @@
+{
+  "name": "Pyjam",
+  "symbol": "PJM",
+  "description": "Pyjam (PJM) — fixed supply 500,000,000. Mint authority revoked; no additional tokens can ever be created. LP locked until 2027-06-02. Utility token for Pyjam streaming & freelance app: earn via streams, tips, gigs; spend on boosts/donations; swap via DEXs/off-ramps.",
+  "image": "https://pyjam.com/assets/favicon.png",
+  "external_url": "https://pyjam.com",
+  "attributes": [
+    { "trait_type": "Category", "value": "Utility" },
+    { "trait_type": "Network", "value": "Solana" },
+    { "trait_type": "Supply", "value": "500000000" },
+    { "trait_type": "Mint", "value": "revoked" },
+    { "trait_type": "LP Lock", "value": "unlock 2027-06-02" }
+  ],
+  "extensions": {
+    "website": "https://pyjam.com",
+    "twitter": "https://x.com/pyjamstreams",
+    "email": "support@pyjam.com",
+    "lp_lock": "https://lock.jup.ag/escrow/atyrJ9R6hkEFV4TK38ABdM8usaXhbHMZbPREtYsSUQo",
+    "transparency": "https://pyjam.com/transparency/pyjam-transparency.json"
+  }
+}
