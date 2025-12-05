@@ -46,17 +46,54 @@
   "metadata": {
     "primary": "https://pyjam.com/metadata/pjm.json",
     "mirror": "https://raw.githubusercontent.com/pyjamcom/pyjam-registry/main/pjm.json",
-    "sha256": "e2d208aa04b2591c7b77e6fe2fc3a4cafad7335f10f53efc67eb81c3b8d50f2f"
+    "sha256": "84db0b4b8e6122b86e9b98b9ef68fdee7aa2c8e97847824c76c97ba0f79770a9"
   },
   "transparency_json": {
-    "primary": "https://pyjam.com/transparency/pyjam-transparency.json",
+    "primary": "https://pyjam.com/pyjam-transparency.json",
     "mirror": "https://raw.githubusercontent.com/pyjamcom/pyjam-registry/main/pyjam-transparency.json",
-    "sha256": "5f17d0f0902f04bdb72a3bacb0820269d029716be25e473e9b0b4166484a3bd5"
+    "sha256": "3f3cbcc9d00cf66b369dddc2e8217fe81d38b03b7a5e21e19956d01b51448d76"
   },
   "contacts": {
     "site": "https://pyjam.com",
     "x": "https://x.com/pyjamstreams",
     "email": "support@pyjam.com"
   },
-  "notes": "Owner controls all signers; multisig addresses to be filled after creation."
+  "holder_scan": {
+    "as_of_utc": "2025-12-05T17:25:51Z",
+    "top1": {
+      "address": "E9Xikh33mU4jPbrrGhjGzC3GLC6qtmRR7CUCS189RgWK",
+      "amount": 160000000.0,
+      "percent": 32.0
+    },
+    "top10": {
+      "amount": 499999993.0,
+      "percent": 99.999999
+    },
+    "lp_account": {
+      "address": "2htoaoFQms5SDK1iMjcr38K4h99f4dWxSwu8cGqKgKNN",
+      "amount": 1290798.245965,
+      "percent": 0.25816
+    },
+    "dust": {
+      "total": 54.413919,
+      "accounts": [
+        {
+          "address": "34VhpkDKxq266gQULaQT1mdtHpoXXvZXSPP3UptQeBLt",
+          "amount": 38.413919
+        },
+        {
+          "address": "CnqTkJfYPErHb6XhnKQ53eNg5fFYLXtJxBNb6uZzNGJX",
+          "amount": 9.0
+        },
+        {
+          "address": "7VYW9njTxajUpdnvpakWvbNmPyQLbThk5kAXMGiVrnUN",
+          "amount": 7.0
+        }
+      ]
+    },
+    "files": {
+      "csv": "Reports/holders-top50.csv",
+      "json": "Reports/holders-top50.json"
+    }
+  }
 }
